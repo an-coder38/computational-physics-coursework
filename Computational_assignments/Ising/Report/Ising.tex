@@ -58,7 +58,7 @@ La evolución del sistema se simula mediante el algoritmo de Metropolis. Para ca
 El cambio se acepta con probabilidad $P = \min \left(1, e^{-\Delta E / k_B T} \right)$ donde $T$ es la temperatura del sistema.
 
 \subsection{Histéresis}
-
+ 
 La histéresis aparece cuando una magnitud depende del estado previo del sistema. Al realizar un barrido en el campo magnético en ambas direcciones (ascendente y descendente), se obtiene un ciclo cerrado de la magnetización $M(H)$. Este fenómeno es característico de sistemas con 'memoria' y aparece a bajas temperaturas, en los que no se puede alcanzar el equilibrio de forma instantánea. 
 
 En condiciones de equilibrio termodinámico, la magnetización es una función única del campo y la temperatura: $M = M(H, T)$. Por tanto, no debería de existir la histéresis. Sin embargo, cuando el sistema no dispone de suficiente tiempo para alcanzar el equilibrio (como ocurre en simulaciones con un número finito de pasos de Monte Carlo), aparecen efectos de histéresis.
