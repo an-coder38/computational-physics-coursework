@@ -216,3 +216,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Archivos temporales de LaTeX
+*.aux
+*.bbl
+*.blg
+*.fls
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+
+# PERMITIR PDFs (Muy importante para tus Guidelines y Reports)
+!*.pdf
